@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
 @import '~bootstrap/scss/bootstrap.scss';
 @import '/variables.scss';
 
@@ -12,7 +13,35 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.container{
+.ms_container{
     margin: 0 auto;
     max-width: 1200px;
+}
+
+
+.ms_title{
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: $color12;
+}
+.ms_title1{
+    font-size: 35px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: $color12;
+}
+
+.ms_subtitle{
+    color: $color13;
+}
+
+
+button{
+    background-color: $color3;
+                color: $color0;
+                padding: 15px 40px;
+                font-size: 13px;
+                border-radius: 5px;
+                border: none;
 }

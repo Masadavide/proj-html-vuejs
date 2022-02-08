@@ -1,13 +1,19 @@
 <template>
   <header>
-      <div class="container">
-        Main
-      </div>
+      <Introduction />
+      <Corses />
   </header>
 </template>
 
 <script>
+import Introduction from './commons/Introduction.vue'
+import Corses from './commons/Corses.vue'
+
 export default {
+  components: { 
+    Introduction,
+    Corses
+  },
   name: 'Main',
   props: {
     msg: String
@@ -17,5 +23,7 @@ export default {
 
 
 <style scoped lang="scss">
-
+  header{
+    margin-top: 150px;
+  }
 </style>
