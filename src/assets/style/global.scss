@@ -23,25 +23,39 @@ body{
     font-size: 40px;
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
-    color: $color12;
+    color: $color19;
 }
 .ms_title1{
     font-size: 35px;
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
-    color: $color12;
+    color: $color19;
+}
+.ms_title2{
+    font-weight: bold;
+    font-size: 20px;
+    color: $color19;
 }
 
-.ms_subtitle{
+.ms_subtitle,
+.ms_subtitle1{
     color: $color13;
+}
+
+.ms_color{
+    color: $color19;
+}
+.ms_color1{
+    color: $color3;
 }
 
 
 button{
     background-color: $color3;
-                color: $color0;
-                padding: 15px 40px;
-                font-size: 13px;
-                border-radius: 5px;
-                border: none;
+    color: $color0;
+    padding: 15px 45px;
+    font-size: 13px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
 }

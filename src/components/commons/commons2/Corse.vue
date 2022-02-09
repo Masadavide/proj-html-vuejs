@@ -100,17 +100,13 @@ export default {
     }
 
     .ms_text{
-        padding-left: 25px;
-        width: 400px;
+        padding-left: 30px;
+        width: 350px;
 
         .ms_price{
             color: $color3;
             font-size: 25px;
             font-weight: bold;
-        }
-        .ms_title2{
-            font-weight: bold;
-            font-size: 20px;
         }
         .ms_info{
             font-size: 13px;

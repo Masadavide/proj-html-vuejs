@@ -4,7 +4,7 @@
         <div class="ms_subtitle text-center">
             Stimulated to learn?
         </div>
-        <div class="ms_title1 text-center ms_title1-margin">
+        <div class="ms_title1 text-center">
             Featured Online Courses
         </div>
 
@@ -47,6 +47,7 @@ export default {
     button{
         display: block;
         margin: 0 auto;
+        padding: 15px 80px;
     }
 }
 
