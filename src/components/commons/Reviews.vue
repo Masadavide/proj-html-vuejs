@@ -13,7 +13,7 @@
         </div>
     </div>
     <div class="row row-cols-3 ms_row">
-        <div class="col" v-if="this.i == 0">
+        <div class="col ms_opacity" v-if="this.i == 0">
             <div class="ms_box">
                 <div class="ms_title2">
                     It'a a choice of quality for people with special needs
@@ -59,7 +59,7 @@
                 </div>
             </div>
         </div>
-        <div class="col" v-if="this.i == 3">
+        <div class="col ms_opacity" v-if="this.i == 3">
             <div class="ms_box">
                 <div class="ms_title2">
                     High level of efficiency and scientific teaching method
@@ -133,6 +133,9 @@ export default {
     methods:{
         current: function(index){
             if(index == this.i || index == this.i + 1 || index == this.i - 1){ 
+                if(index == this.i +1 || index == this.i - 1){
+                    return "ms_opacity"
+                }
                 return "show"
             }
             return "noshow"
@@ -209,6 +212,7 @@ export default {
         border-radius: 50%;
         display: inline-block;
         transition: background-color 0.6s ease;
+        vertical-align: middle;
 
         &:hover{
             background-color: $color12;
@@ -237,6 +241,10 @@ export default {
         display: inline-block;
         transition: background-color 0.6s ease;
         vertical-align:auto;
+    }
+
+    .ms_opacity{
+        opacity: 65%;
     }
 
 </style>
