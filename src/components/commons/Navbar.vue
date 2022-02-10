@@ -69,6 +69,7 @@ export default {
 
         .ms_navbar-option{
             margin: 0 20px;
+            cursor: pointer;
 
         }
         .ms_searchbar{
@@ -86,6 +87,7 @@ export default {
 .ms_fa-user-circle{
     margin-right: 20px;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 
@@ -113,6 +115,7 @@ button {
     cursor: pointer;
     width: 44px;
     height: 44px;
+    border-radius: 0 5px 5px 0;
 }
 .ms_search{
     color: $color3;
