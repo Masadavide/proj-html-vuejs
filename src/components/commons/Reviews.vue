@@ -85,19 +85,7 @@
     </div>
     <div class="text-center">
         <span class="dots">
-            <span class="dot"   @click="i = 0">
-            </span>
-        </span>
-        <span class="dots">
-            <span class="dot"   @click="i = 1">
-            </span>
-        </span>
-        <span class="dots">
-            <span class="dot"   @click="i = 2">
-            </span>
-        </span>
-        <span class="dots">
-            <span class="dot"   @click="i = 3">
+            <span class="dot" @click="i = index" :class="{active: index == i}" v-for="(element,index) in review" :key="index">
             </span>
         </span>
     </div>
@@ -213,14 +201,18 @@ export default {
     }
 
     .dot{
-            cursor: pointer;
-            background-color: $color2;
-            height: 8px;
-            width: 8px;
-            margin: 7px;
-            border-radius: 50%;
-            display: inline-block;
-            transition: background-color 0.6s ease;
+        cursor: pointer;
+        background-color: $color2;
+        height: 8px;
+        width: 8px;
+        margin: 7px;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+
+        &:hover{
+            background-color: $color12;
+        }
         }
 
     .show{
@@ -234,4 +226,17 @@ export default {
         padding-left: 25px;
         padding-right: 25px;
     }
+
+    .active{
+        cursor: pointer;
+        background-color: $color12;
+        height: 12px;
+        width: 12px;
+        margin: 7px;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        vertical-align:auto;
+    }
+
 </style>

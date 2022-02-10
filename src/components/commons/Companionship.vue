@@ -53,6 +53,7 @@ export default {
         .col{
             .img{
                 position: relative;
+                cursor: pointer;
 
                 .image{
                     width: 100%;

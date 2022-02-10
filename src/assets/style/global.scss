@@ -58,4 +58,8 @@ button{
     border-radius: 5px;
     border: none;
     font-weight: bold;
+
+    &:hover{
+        background-color: $color19;
+    }
 }

@@ -85,7 +85,17 @@ export default {
 @import '../../../assets/style/variables.scss';
 
 .ms_box{
-    margin-top: 60px;
+    padding: 20px;
+    margin: 10px 0;
+
+    &:hover{
+        background-color: $color0;
+        border-radius: 5px;
+        cursor: pointer;
+        .ms_title2{
+            color: $color3;
+        }
+    }
 
     .ms_img{
         width: 150px;

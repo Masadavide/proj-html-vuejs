@@ -41,7 +41,7 @@ export default {
         margin-bottom: 10px;
     }
     .ms_corse{
-        margin-bottom: 70px;
+        margin: 70px 0;
     }
 
     button{

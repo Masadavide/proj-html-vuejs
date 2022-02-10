@@ -60,6 +60,10 @@ export default {
                 font-weight: bold;
                 padding: 15px 40px;
                 border: 0;
+                
+                &:hover{
+                    background-color: $color19;
+                }
             }
         }
     }

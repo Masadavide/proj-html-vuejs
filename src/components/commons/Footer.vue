@@ -16,7 +16,7 @@
                     <li>
                         support@maxcoach.com
                     </li>
-                    <li>
+                    <div>
                         <span class="ms_icon">
                             <i class="fab fa-facebook-square"></i>
                         </span>
@@ -29,7 +29,7 @@
                         <span class="ms_icon">
                             <i class="fab fa-linkedin"></i>
                         </span>
-                    </li>
+                    </div>
                 </ul>
             </div>
             <div class="col">
@@ -113,6 +113,11 @@ export default {
 
         .ms_icon{
             margin-right: 20px;
+            cursor: pointer;
+
+            &:hover{
+            color: $color3;
+            }
         }
     }
 
@@ -124,6 +129,10 @@ export default {
         list-style: none;
         margin: 10px 0;
         color: $color13;
+        cursor: pointer;
+        &:hover{
+            color: $color3;
+        }
     }
     .ms_col{
         padding-left: 12px;
@@ -142,6 +151,11 @@ export default {
         cursor: pointer;
         margin-top: -50px;
         margin-right: 30px;
+
+        &:hover{
+            background-color: $color19;
+        }
     }
+
 
 </style>

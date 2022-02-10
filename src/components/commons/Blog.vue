@@ -126,6 +126,7 @@ export default {
                 ul{
                     padding-left: 0;
                     margin-top: 25px;
+                    cursor: pointer;
 
                     span{
                         vertical-align: top;
@@ -145,9 +146,7 @@ export default {
                 .ms_box{
                     background-color: $color0;
                     border-radius: 5px;
-                    
-                    
-                    
+                    cursor: pointer;
     
                     .ms_img{
                         height: 250px;
