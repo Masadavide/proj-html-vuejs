@@ -6,6 +6,7 @@
       <Companionship />
       <Reviews />
       <Certification />
+      <Blog />
   </main>
 </template>
 
@@ -16,6 +17,7 @@ import Benefits from './commons/Benefits.vue'
 import Companionship from './commons/Companionship.vue'
 import Reviews from './commons/Reviews.vue'
 import Certification from './commons/Certification.vue'
+import Blog from './commons/Blog.vue'
 
 export default {
   components: { 
@@ -24,7 +26,8 @@ export default {
     Benefits,
     Companionship,
     Reviews,
-    Certification
+    Certification,
+    Blog
   },
   name: 'Main',
   props: {

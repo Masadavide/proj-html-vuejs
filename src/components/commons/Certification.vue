@@ -9,7 +9,7 @@
                         Online Certification
                     </span>
                 </div>
-                <div class="ms_title">
+                <div class="ms_title1">
                     You can be your own guiding star with our help!
                 </div>
                 <button>
